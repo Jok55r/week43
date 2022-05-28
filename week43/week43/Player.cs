@@ -12,6 +12,7 @@ namespace week43
         public Keyboard.Key down;
         public int points = 0;
         public Text pointsText = new Text();
+        public int dy = 0;
         //public Text pointsText = new Text("0", new Font("D:/Github/week43/week43/packages/bullpen-3d.zip/Bullpen3D.ttf"));
 
         public Player(uint xPos, uint yPos, uint xSize, uint ySize, Keyboard.Key aUp, Keyboard.Key aDown)
