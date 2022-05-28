@@ -1,8 +1,4 @@
-﻿using SFML.Window;
-using SFML.Graphics;
-using System;
-
-namespace week43
+﻿namespace week43
 {
     class Program
     {
